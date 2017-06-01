@@ -1,33 +1,12 @@
 BIBLLIOTECA IMAGE PROCESSING CEMISID 1.0
 Autor: Jormar Turizo
 
-Se desarrolló una biblioteca de funciones para el procesamiento de imágenes digitales llamada Image Processing Cemisid 1.0, 
-está consta de dos bibliotecas indispensables para su funcionamiento, las cuales son Amadillo C++ para el manejo de matemática
-lineal y OpenCV C++ para la visualización de las imágenes procesadas. 
+Se desarrolló una biblioteca de funciones para el procesamiento de imágenes digitales llamada Image Processing Cemisid 1.0, está consta de dos bibliotecas indispensables para su funcionamiento, las cuales son Amadillo C++ para el manejo de matemática lineal y OpenCV C++ para la visualización de las imágenes procesadas. Entre los métodos u operaciones implementadas en la biblioteca se encuentran los Modelos de Ruido en Imágenes, el Filtrado de Ventana y la Aproximación de imágenes.
 
-Entre los métodos u operaciones implementadas en la biblioteca se encuentran los Modelos de Ruido en Imágenes, 
-el Filtrado de Ventana y la Aproximación de imágenes.
+Los Modelos de Ruido se basan en contaminar imágenes con un tipo específico, los implementados son el Ruido Gaussiano, el Ruido Sal y Pimienta, el Ruido por Pérdida de Pixeles y el Ruido Impulsivo Uniforme.
 
-Los Modelos de Ruido se basan en contaminar imágenes con un tipo específico, los implementados son el Ruido Gaussiano, 
-el Ruido Sal y Pimienta, el Ruido por Pérdida de Pixeles y el Ruido Impulsivo Uniforme.
+El Filtrado de Imágenes son métodos básicos que son utilizados para remover ruidos que contaminan las imágenes. Los filtros implementados son el Filtro Promediador (media) y el Filtro de Mediana. La Aproximación de Bloques son métodos complejos para la remoción de ruido en imágenes y los cuales permiten mejorar y reconstruir mediante bloques de pixeles las áreas deterioradas. Los métodos implementados son la aproximación de imágenes usando bloques solapados, la aproximación de imágenes usando bloques no solapados y la aproximación robusta de imágenes usando bloques no solapados.
 
-El Filtrado de Imágenes son métodos básicos que son utilizados para remover ruidos que contaminan las imágenes. 
-Los filtros implementados son el Filtro Promediador (media) y el Filtro de Mediana. 
+Mediante la aplicación de la herramienta Doxigen; un generador de documentación de código, se obtiene la información necesaria de las clases y cada una de las funciones mencionadas. Se incluye además un método de detección de rostros para observar el alcance al que puede llegar esta biblioteca de procesamiento de imágenes. En la visualización de los resultados se manejaron pruebas para cada una de los métodos indicados,  los cuales determinan que métodos de filtrado o aproximación mejoran  o reconstruyen las imágenes con los diversos tipos de ruido. 
 
-La Aproximación de Bloques son métodos complejos para la remoción de ruido en imágenes y los cuales permiten mejorar y 
-reconstruir mediante bloques de pixeles las áreas deterioradas. Los métodos implementados son la aproximación de 
-imágenes usando bloques solapados, la aproximación de imágenes usando bloques no solapados y la aproximación robusta de 
-imágenes usando bloques no solapados.
-
-Mediante la aplicación de la herramienta Doxigen; un generador de documentación de código, se obtiene la información 
-necesaria de las clases y cada una de las funciones mencionadas. Se incluye además un método de detección de rostros 
-para observar el alcance al que puede llegar esta biblioteca de procesamiento de imágenes. 
-
-En la visualización de los resultados se manejaron pruebas para cada una de los métodos indicados,  
-los cuales determinan que métodos de filtrado o aproximación mejoran  o reconstruyen las imágenes con 
-los diversos tipos de ruido. 
-
-En cuanto al Filtrado Promediador se obtiene un mejor resultado en una imagen contaminada de Ruido Gaussiano, 
-el Filtro de Mediana puede corregir dando un efecto relevante en imágenes contaminadas de Ruidos Sal y Pimienta, 
-Pérdida de Pixeles y Ruido Impulsivo Uniforme. La Aproximación de Bloques son métodos más complejos pero determinantes
-en la remoción de ruido, ya que se obtiene una recuperación de áreas perdidas con mayor calidad que los métodos de filtrado. 
+En cuanto al Filtrado Promediador se obtiene un mejor resultado en una imagen contaminada de Ruido Gaussiano, el Filtro de Mediana puede corregir dando un efecto relevante en imágenes contaminadas de Ruidos Sal y Pimienta, Pérdida de Pixeles y Ruido Impulsivo Uniforme. La Aproximación de Bloques son métodos más complejos pero determinantes en la remoción de ruido, ya que se obtiene una recuperación de áreas perdidas con mayor calidad que los métodos de filtrado. 
