@@ -835,7 +835,7 @@ return x;
  *
  *  \fn mat Image::Idtc_Robusta(mat matrix, int flag)
  *  \brief Aproximación Robusta por bloques solpados (ventana 8x8)
- *  \param matrix_r es la matriz con ruido.
+ *  \param matrix es la matriz con ruido.
  *  \param flag es la bandera que indica si se efectua el promedio o la mediana. Donde el promedio es igual 0 y la mediana igual a 1
  *  \return Retorna la matriz sin ruido.
  *  \test idtc_Robusta_median.cpp idtc_Robusta_mean.cpp
