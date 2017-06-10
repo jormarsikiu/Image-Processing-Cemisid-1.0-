@@ -12,6 +12,9 @@
 */
 
 
+/*! \file 
+*/ 
+
 /*Funciones Basicas: Cargar imagen, Dimension de la matriz, Obtencion de un pixel, Obtencion de todos los pixeles, Generar un histrograma de la imagen, Obtener el PSNR */
 #include "../include/Image.hpp"
 #include <iostream>

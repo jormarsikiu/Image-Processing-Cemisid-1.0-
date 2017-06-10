@@ -168,7 +168,7 @@ void Image::Get_pixels(){
  *  \return value: Retorna la matriz con el ruido aplicado
  *  \test gaussian_noise.cpp
  *  \n int nivel=0.1;
- *  \n Impulsive_uniform_noise(nivel1);
+ *  \n Gaussian_noise(nivel1);
  */
 mat Image::Gaussian_noise(double nivel){
 
@@ -206,10 +206,10 @@ mat Image::Gaussian_noise(double nivel){
  *  \param nivel es el porcentaje de ruido
  *  \return value: Retorna la matriz con el ruido aplicado
  *  \test lost_Pixels_noise.cpp
- *  \n int nivel=0.1;
+ *  \n double nivel=0.1;
  *  \n Lost_pixels_noise(nivel);
  */
-mat Image::Lost_pixels_noise(int nivel){
+mat Image::Lost_pixels_noise(double nivel){
 
 	int & _row = rows;
 	int & _col = cols;
@@ -248,10 +248,10 @@ mat Image::Lost_pixels_noise(int nivel){
  *  \param nivel es el porcentaje de ruido
  *  \return Retorna la matriz con el ruido (RG)
  *  \test salt_pepper.cpp
- *  \n int nivel=0.1;
+ *  \n double nivel=0.1;
  *  \n Salt_and_pepper_noise(nivel);
  */
-mat Image::Salt_and_pepper_noise(int nivel){
+mat Image::Salt_and_pepper_noise(double nivel){
 
 	int & _row = rows;
 	int & _col = cols;
@@ -290,10 +290,10 @@ mat Image::Salt_and_pepper_noise(int nivel){
  *  \param nivel es el porcentaje de ruido.
  *  \return value: Retorna la matriz con el ruido aplicado.
  *  \test uniform_impulsive_noise.cpp
- *  \n int nivel=0.1;
+ *  \n double nivel=0.1;
  *  \n Impulsive_uniform_noise(nivel);
  */
-mat Image::Impulsive_uniform_noise(int nivel){
+mat Image::Impulsive_uniform_noise(double nivel){
 
 	int & _row = rows;
 	int & _col = cols;
@@ -412,7 +412,7 @@ mat Image::Filtering(mat matrix, int l, int flag){
 
 /*! Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 no solapado
  *  \fn mat Image::Noise_remover(mat matrix, int image_tam)
- *  \brief Remocion de Ruido no solapado (ventana 8x8)
+ *  \brief Aproximación Robusta por bloques No solpados (ventana 8x8) 
  *  \param matrix es la matriz que se le removerá el ruido.
  *  \param image_tam es el tamaño de la imagen.
  *  \return removermatrix: Retorna la matriz sin ruido.
@@ -455,7 +455,7 @@ mat Image::Noise_remover(mat matrix, int image_tam){
 }
 /*! Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 solapado
  *  \fn mat Image::Overlap(mat matrix)
- *  \brief Remocion de Ruido solapado (ventana 8x8)
+ *  \brief Aproximación por bloques solpados (ventana 8x8) 
  *  \param matrix es la matriz que se le removerá el ruido.
  *  \return removermatrix: Retorna la matriz sin ruido.
  *  \test overlap.cpp
@@ -616,7 +616,20 @@ double Image::MAE(mat matrix_r, mat matrix_f){
 }
 
 
-
+/*! Descripcion: Funcion necesaria para idt_Robusta()
+ * 
+ * Basado en los Articulos:
+ * 
+ * Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech
+ * and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela.  
+ * Doi: 978-1-4799-2893-4/14/$31.00. 
+ * Recuperado de: http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf
+ * 
+ * Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. 
+ * doi: 10.1109/LSP.2014.2349351. Recuperado de: http://ieeexplore.ieee.org/document/6880779/
+ *
+ *  \brief Calculo de la mediana 
+ */
 double Image::wmedianf(vec& samples, vec& weights)
 {
 	int i, N;
@@ -658,7 +671,20 @@ double Image::wmedianf(vec& samples, vec& weights)
 	return wmedian_output;
 }
 
-
+/*! Descripcion: Funcion necesaria para idt_Robusta()
+ * 
+ * Basado en los Articulos:
+ * 
+ * Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech
+ * and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela.  
+ * Doi: 978-1-4799-2893-4/14/$31.00. 
+ * Recuperado de: http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf
+ * 
+ * Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. 
+ * doi: 10.1109/LSP.2014.2349351. Recuperado de: http://ieeexplore.ieee.org/document/6880779/
+ *
+ *  \brief Diccionario de la transformada del Coseno
+ */
 mat Image::Diccionary(){
     double pi = acos(-1.0);
     int width_patch = 8;
@@ -691,7 +717,19 @@ mat Image::Diccionary(){
 
 
 
-
+/*!  \brief Funcion necesaria para idt_Robusta()
+ * 
+ * Basado en los Articulos:
+ * 
+ * Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech
+ * and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela.  
+ * Doi: 978-1-4799-2893-4/14/$31.00. 
+ * Recuperado de: http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf
+ * 
+ * Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. 
+ * doi: 10.1109/LSP.2014.2349351. Recuperado de: http://ieeexplore.ieee.org/document/6880779/
+ *
+ */
 vec Image::Fast_awmr(vec& y, mat& A, int sparsity, int itmax, double beta, double tol, double epsilon, int numcoefperiter, double Kpar)
 {
 	
@@ -783,7 +821,28 @@ return x;
 
 
 
-
+/*! Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 solapado por media (0) y mediana ponderada (1). 
+ * 
+ * Basado en los Articulos:
+ * 
+ * Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech
+ * and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela.  
+ * Doi: 978-1-4799-2893-4/14/$31.00. 
+ * Recuperado de: http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf
+ * 
+ * Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. 
+ * doi: 10.1109/LSP.2014.2349351. Recuperado de: http://ieeexplore.ieee.org/document/6880779/
+ *
+ *  \fn mat Image::Idtc_Robusta(mat matrix, int flag)
+ *  \brief Aproximación Robusta por bloques solpados (ventana 8x8)
+ *  \param matrix_r es la matriz con ruido.
+ *  \param flag es la bandera que indica si se efectua el promedio o la mediana. Donde el promedio es igual 0 y la mediana igual a 1
+ *  \return Retorna la matriz sin ruido.
+ *  \test idtc_Robusta_median.cpp idtc_Robusta_mean.cpp
+ *  \n mat matrix;
+ *  \n int flag = 0;
+ *  \n Idtc_Robusta(matrix, flag);
+ */
 mat Image::Idtc_Robusta(mat matrix, int flag){
 
 	    //Declaraciones

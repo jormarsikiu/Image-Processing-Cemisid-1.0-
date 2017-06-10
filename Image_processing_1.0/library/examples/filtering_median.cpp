@@ -34,12 +34,12 @@ int main(){
 
 	/*Guardamos la imagen con ruido*/
 	const char* S1 = "Images/Filtering/Image_R.pgm";
-	I.SaveImage(U,S1);  //<---Para cambiarar el ruido
+	I.SaveImage(S,S1);  //<---Para cambiarar el ruido
 
 	/*Filtrado*/
 	mat F;
 	int median = 1;
-	F = I.Filtering(U, 5, median);   //<---Para cambiarar el ruido
+	F = I.Filtering(S, 5, median);   //<---Para cambiarar el ruido
 
 	/*Guardamos el filtrado*/
 	const char* F1 = "Images/Filtering/Image_F.pgm";
@@ -48,9 +48,9 @@ int main(){
 
 	cout<<"********************Metricas********************"<<endl;
 	cout<<"*                   (IO, R)       (IO, F)     "<<endl;
-	cout<<"*       PSNR        "<<I.PSNR(IO,U) <<"       "<<I.PSNR(IO, F)<<endl; //<---Para cambiarar el ruido
-	cout<<"*       MSE         "<<I.MSE(IO, U) <<"       "<<I.MSE(IO, F)<<endl;
-	cout<<"*       MAE         "<<I.MAE(IO, U) <<"       "<<I.MAE(IO, F)<<endl;
+	cout<<"*       PSNR        "<<I.PSNR(IO,S) <<"       "<<I.PSNR(IO, F)<<endl; //<---Para cambiarar el ruido
+	cout<<"*       MSE         "<<I.MSE(IO, S) <<"       "<<I.MSE(IO, F)<<endl;
+	cout<<"*       MAE         "<<I.MAE(IO, S) <<"       "<<I.MAE(IO, F)<<endl;
 	cout<<"************************************************"<<endl;
 	cout<<"IO:       Imagen Original"<<endl;
 	cout<<"R:        Imagen con Ruido"<<endl;
@@ -63,7 +63,7 @@ int main(){
 
 	/*Mostramos la imagen recortada*/
 	mat IO1 = IO(span(2, 253),span(2, 253));
-	mat SS1 = U(span(2, 253),span(2, 253)); //<---Para cambiarar el ruido
+	mat SS1 = S(span(2, 253),span(2, 253)); //<---Para cambiarar el ruido
 	mat FF1 = F(span(2, 253),span(2, 253));
 	const char* R0 = "Images/Recorte_Median/Recorte_Original.pgm";
 	const char* R1 = "Images/Recorte_Median/Recorte_Ruido.pgm";
@@ -74,7 +74,7 @@ int main(){
 	
 	/*Ventana Opencv*/
 	const char* label1 = "Imagen Original";
-	const char* label2 = "Ruido: Impulsivo Uniforme: 5%";
+	const char* label2 = "Ruido: Sal y Pimienta: 5%";
 	const char* label3 = "Original Imagen";
 	const char* label4 = "Filtering Median";
 	I.Four_windows_opencv(R0, R1, R0, R2, label1, label2, label3, label4);

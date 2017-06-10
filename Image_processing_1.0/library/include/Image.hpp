@@ -37,9 +37,9 @@ public:
 	int Get_pixel(int, int);
 	void Get_pixels();
 	arma::mat Gaussian_noise(double);
-	arma::mat Lost_pixels_noise(int);
-	arma::mat Salt_and_pepper_noise(int);
-	arma::mat Impulsive_uniform_noise(int);
+	arma::mat Lost_pixels_noise(double);
+	arma::mat Salt_and_pepper_noise(double);
+	arma::mat Impulsive_uniform_noise(double);
 	void SaveImage(arma::mat, std::string);
 	double PSNR(arma::mat, arma::mat);
 	double MAE(arma::mat, arma::mat);
