@@ -1,0 +1,234 @@
+\begin{theindex}
+
+  \item {$\sim $Image}
+    \subitem {Image}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Average\_\discretionary {-}{}{}Median}
+    \subitem {Image\_\discretionary {-}{}{}load.cpp}, \hyperpage{27}
+
+  \indexspace
+
+  \item {basic\_\discretionary {-}{}{}funcions.cpp}
+    \subitem {main}, \hyperpage{21}
+
+  \indexspace
+
+  \item {cols}
+    \subitem {Image}, \hyperpage{20}
+
+  \indexspace
+
+  \item {Detection\_\discretionary {-}{}{}Face}
+    \subitem {Image}, \hyperpage{11}
+  \item {detection\_\discretionary {-}{}{}face.cpp}
+    \subitem {main}, \hyperpage{22}
+  \item {Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}
+    \subitem {face\_\discretionary {-}{}{}cascade}, \hyperpage{26}
+  \item {Diccionary}
+    \subitem {Image}, \hyperpage{11}
+  \item {Dimension}
+    \subitem {Image}, \hyperpage{11}
+
+  \indexspace
+
+  \item {examples/basic\_\discretionary {-}{}{}funcions.cpp}, 
+		\hyperpage{21}
+  \item {examples/detection\_\discretionary {-}{}{}face.cpp}, 
+		\hyperpage{21}
+  \item {examples/filtering\_\discretionary {-}{}{}mean.cpp}, 
+		\hyperpage{22}
+  \item {examples/filtering\_\discretionary {-}{}{}median.cpp}, 
+		\hyperpage{22}
+  \item {examples/gaussian\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{22}
+  \item {examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}, 
+		\hyperpage{23}
+  \item {examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}, 
+		\hyperpage{23}
+  \item {examples/lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{23}
+  \item {examples/noise\_\discretionary {-}{}{}remover.cpp}, 
+		\hyperpage{24}
+  \item {examples/overlap.cpp}, \hyperpage{24}
+  \item {examples/salt\_\discretionary {-}{}{}pepper.cpp}, 
+		\hyperpage{25}
+  \item {examples/uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {face\_\discretionary {-}{}{}cascade}
+    \subitem {Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}, 
+		\hyperpage{26}
+  \item {Fast\_\discretionary {-}{}{}awmr}
+    \subitem {Image}, \hyperpage{12}
+  \item {Filtering}
+    \subitem {Image}, \hyperpage{12}
+  \item {filtering\_\discretionary {-}{}{}mean.cpp}
+    \subitem {main}, \hyperpage{22}
+  \item {filtering\_\discretionary {-}{}{}median.cpp}
+    \subitem {main}, \hyperpage{22}
+  \item {Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}
+    \subitem {Image}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Gaussian\_\discretionary {-}{}{}noise}
+    \subitem {Image}, \hyperpage{13}
+  \item {gaussian\_\discretionary {-}{}{}noise.cpp}
+    \subitem {main}, \hyperpage{23}
+  \item {Get\_\discretionary {-}{}{}pixel}
+    \subitem {Image}, \hyperpage{14}
+  \item {Get\_\discretionary {-}{}{}pixels}
+    \subitem {Image}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Idtc\_\discretionary {-}{}{}Robusta}
+    \subitem {Image}, \hyperpage{14}
+  \item {idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}
+    \subitem {main}, \hyperpage{23}
+  \item {idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}
+    \subitem {main}, \hyperpage{23}
+  \item {Image}, \hyperpage{9}
+    \subitem {$\sim $Image}, \hyperpage{11}
+    \subitem {cols}, \hyperpage{20}
+    \subitem {Detection\_\discretionary {-}{}{}Face}, \hyperpage{11}
+    \subitem {Diccionary}, \hyperpage{11}
+    \subitem {Dimension}, \hyperpage{11}
+    \subitem {Fast\_\discretionary {-}{}{}awmr}, \hyperpage{12}
+    \subitem {Filtering}, \hyperpage{12}
+    \subitem {Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}, 
+		\hyperpage{12}
+    \subitem {Gaussian\_\discretionary {-}{}{}noise}, \hyperpage{13}
+    \subitem {Get\_\discretionary {-}{}{}pixel}, \hyperpage{14}
+    \subitem {Get\_\discretionary {-}{}{}pixels}, \hyperpage{14}
+    \subitem {Idtc\_\discretionary {-}{}{}Robusta}, \hyperpage{14}
+    \subitem {Image}, \hyperpage{11}
+    \subitem {Image\_\discretionary {-}{}{}load}, \hyperpage{15}
+    \subitem {Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise}, 
+		\hyperpage{15}
+    \subitem {Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise}, 
+		\hyperpage{16}
+    \subitem {MAE}, \hyperpage{16}
+    \subitem {matrix}, \hyperpage{20}
+    \subitem {MSE}, \hyperpage{17}
+    \subitem {Noise\_\discretionary {-}{}{}remover}, \hyperpage{17}
+    \subitem {Overlap}, \hyperpage{18}
+    \subitem {PSNR}, \hyperpage{18}
+    \subitem {rows}, \hyperpage{20}
+    \subitem {Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise}, 
+		\hyperpage{18}
+    \subitem {SaveImage}, \hyperpage{19}
+    \subitem {Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}, 
+		\hyperpage{19}
+    \subitem {wmedianf}, \hyperpage{20}
+  \item {Image::h}, \hyperpage{9}
+  \item {Image\_\discretionary {-}{}{}load}
+    \subitem {Image}, \hyperpage{15}
+  \item {Image\_\discretionary {-}{}{}load.cpp}
+    \subitem {Average\_\discretionary {-}{}{}Median}, \hyperpage{27}
+  \item {Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise}
+    \subitem {Image}, \hyperpage{15}
+  \item {include/Image.hpp}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise}
+    \subitem {Image}, \hyperpage{16}
+  \item {lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}
+    \subitem {main}, \hyperpage{24}
+
+  \indexspace
+
+  \item {MAE}
+    \subitem {Image}, \hyperpage{16}
+  \item {main}
+    \subitem {basic\_\discretionary {-}{}{}funcions.cpp}, 
+		\hyperpage{21}
+    \subitem {detection\_\discretionary {-}{}{}face.cpp}, 
+		\hyperpage{22}
+    \subitem {filtering\_\discretionary {-}{}{}mean.cpp}, 
+		\hyperpage{22}
+    \subitem {filtering\_\discretionary {-}{}{}median.cpp}, 
+		\hyperpage{22}
+    \subitem {gaussian\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{23}
+    \subitem {idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}, 
+		\hyperpage{23}
+    \subitem {idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}, 
+		\hyperpage{23}
+    \subitem {lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{24}
+    \subitem {main.cpp}, \hyperpage{27}
+    \subitem {noise\_\discretionary {-}{}{}remover.cpp}, \hyperpage{24}
+    \subitem {overlap.cpp}, \hyperpage{24}
+    \subitem {salt\_\discretionary {-}{}{}pepper.cpp}, \hyperpage{25}
+    \subitem {uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}, 
+		\hyperpage{25}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{27}
+  \item {matrix}
+    \subitem {Image}, \hyperpage{20}
+  \item {MSE}
+    \subitem {Image}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Noise\_\discretionary {-}{}{}remover}
+    \subitem {Image}, \hyperpage{17}
+  \item {noise\_\discretionary {-}{}{}remover.cpp}
+    \subitem {main}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Overlap}
+    \subitem {Image}, \hyperpage{18}
+  \item {overlap.cpp}
+    \subitem {main}, \hyperpage{24}
+
+  \indexspace
+
+  \item {PSNR}
+    \subitem {Image}, \hyperpage{18}
+
+  \indexspace
+
+  \item {rows}
+    \subitem {Image}, \hyperpage{20}
+
+  \indexspace
+
+  \item {Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise}
+    \subitem {Image}, \hyperpage{18}
+  \item {salt\_\discretionary {-}{}{}pepper.cpp}
+    \subitem {main}, \hyperpage{25}
+  \item {SaveImage}
+    \subitem {Image}, \hyperpage{19}
+  \item {src/Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}, 
+		\hyperpage{26}
+  \item {src/Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp}, 
+		\hyperpage{26}
+  \item {src/Image\_\discretionary {-}{}{}load.cpp}, \hyperpage{26}
+  \item {src/main.cpp}, \hyperpage{27}
+  \item {src/Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}
+    \subitem {Image}, \hyperpage{19}
+
+  \indexspace
+
+  \item {uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}
+    \subitem {main}, \hyperpage{25}
+
+  \indexspace
+
+  \item {wmedianf}
+    \subitem {Image}, \hyperpage{20}
+
+\end{theindex}

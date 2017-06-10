@@ -1,0 +1,89 @@
+\contentsline {chapter}{\numberline {1}Test List}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Class Index}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{5}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{7}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Image::h Class Reference}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Image Class Reference}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{11}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Image}{11}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Image}{11}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}$\sim $Image}{11}{subsubsection.4.2.1.3}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{11}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Detection\_\discretionary {-}{}{}Face}{11}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Diccionary}{11}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Dimension}{11}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Fast\_\discretionary {-}{}{}awmr}{12}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}Filtering}{12}{subsubsection.4.2.2.5}
+\contentsline {subsubsection}{\numberline {4.2.2.6}Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}{13}{subsubsection.4.2.2.6}
+\contentsline {subsubsection}{\numberline {4.2.2.7}Gaussian\_\discretionary {-}{}{}noise}{13}{subsubsection.4.2.2.7}
+\contentsline {subsubsection}{\numberline {4.2.2.8}Get\_\discretionary {-}{}{}pixel}{14}{subsubsection.4.2.2.8}
+\contentsline {subsubsection}{\numberline {4.2.2.9}Get\_\discretionary {-}{}{}pixels}{14}{subsubsection.4.2.2.9}
+\contentsline {subsubsection}{\numberline {4.2.2.10}Idtc\_\discretionary {-}{}{}Robusta}{14}{subsubsection.4.2.2.10}
+\contentsline {subsubsection}{\numberline {4.2.2.11}Image\_\discretionary {-}{}{}load}{15}{subsubsection.4.2.2.11}
+\contentsline {subsubsection}{\numberline {4.2.2.12}Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise}{16}{subsubsection.4.2.2.12}
+\contentsline {subsubsection}{\numberline {4.2.2.13}Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise}{16}{subsubsection.4.2.2.13}
+\contentsline {subsubsection}{\numberline {4.2.2.14}MAE}{16}{subsubsection.4.2.2.14}
+\contentsline {subsubsection}{\numberline {4.2.2.15}MSE}{17}{subsubsection.4.2.2.15}
+\contentsline {subsubsection}{\numberline {4.2.2.16}Noise\_\discretionary {-}{}{}remover}{17}{subsubsection.4.2.2.16}
+\contentsline {subsubsection}{\numberline {4.2.2.17}Overlap}{18}{subsubsection.4.2.2.17}
+\contentsline {subsubsection}{\numberline {4.2.2.18}PSNR}{18}{subsubsection.4.2.2.18}
+\contentsline {subsubsection}{\numberline {4.2.2.19}Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise}{18}{subsubsection.4.2.2.19}
+\contentsline {subsubsection}{\numberline {4.2.2.20}SaveImage}{19}{subsubsection.4.2.2.20}
+\contentsline {subsubsection}{\numberline {4.2.2.21}Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}{19}{subsubsection.4.2.2.21}
+\contentsline {subsubsection}{\numberline {4.2.2.22}wmedianf}{20}{subsubsection.4.2.2.22}
+\contentsline {subsection}{\numberline {4.2.3}Member Data Documentation}{20}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}cols}{20}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}matrix}{20}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}rows}{20}{subsubsection.4.2.3.3}
+\contentsline {chapter}{\numberline {5}File Documentation}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}examples/basic\_\discretionary {-}{}{}funcions.cpp File Reference}{21}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{21}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Function Documentation}{21}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}main}{21}{subsubsection.5.1.2.1}
+\contentsline {section}{\numberline {5.2}examples/detection\_\discretionary {-}{}{}face.cpp File Reference}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Function Documentation}{22}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}main}{22}{subsubsection.5.2.1.1}
+\contentsline {section}{\numberline {5.3}examples/filtering\_\discretionary {-}{}{}mean.cpp File Reference}{22}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Function Documentation}{22}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}main}{22}{subsubsection.5.3.1.1}
+\contentsline {section}{\numberline {5.4}examples/filtering\_\discretionary {-}{}{}median.cpp File Reference}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Function Documentation}{22}{subsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1.1}main}{22}{subsubsection.5.4.1.1}
+\contentsline {section}{\numberline {5.5}examples/gaussian\_\discretionary {-}{}{}noise.cpp File Reference}{22}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Function Documentation}{23}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}main}{23}{subsubsection.5.5.1.1}
+\contentsline {section}{\numberline {5.6}examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp File Reference}{23}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Function Documentation}{23}{subsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.1.1}main}{23}{subsubsection.5.6.1.1}
+\contentsline {section}{\numberline {5.7}examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp File Reference}{23}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Function Documentation}{23}{subsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.1.1}main}{23}{subsubsection.5.7.1.1}
+\contentsline {section}{\numberline {5.8}examples/lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp File Reference}{23}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Function Documentation}{24}{subsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.1.1}main}{24}{subsubsection.5.8.1.1}
+\contentsline {section}{\numberline {5.9}examples/noise\_\discretionary {-}{}{}remover.cpp File Reference}{24}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Function Documentation}{24}{subsection.5.9.1}
+\contentsline {subsubsection}{\numberline {5.9.1.1}main}{24}{subsubsection.5.9.1.1}
+\contentsline {section}{\numberline {5.10}examples/overlap.cpp File Reference}{24}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Function Documentation}{24}{subsection.5.10.1}
+\contentsline {subsubsection}{\numberline {5.10.1.1}main}{24}{subsubsection.5.10.1.1}
+\contentsline {section}{\numberline {5.11}examples/salt\_\discretionary {-}{}{}pepper.cpp File Reference}{25}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Function Documentation}{25}{subsection.5.11.1}
+\contentsline {subsubsection}{\numberline {5.11.1.1}main}{25}{subsubsection.5.11.1.1}
+\contentsline {section}{\numberline {5.12}examples/uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp File Reference}{25}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}Function Documentation}{25}{subsection.5.12.1}
+\contentsline {subsubsection}{\numberline {5.12.1.1}main}{25}{subsubsection.5.12.1.1}
+\contentsline {section}{\numberline {5.13}include/Image.hpp File Reference}{25}{section.5.13}
+\contentsline {section}{\numberline {5.14}src/Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp File Reference}{26}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Variable Documentation}{26}{subsection.5.14.1}
+\contentsline {subsubsection}{\numberline {5.14.1.1}face\_\discretionary {-}{}{}cascade}{26}{subsubsection.5.14.1.1}
+\contentsline {section}{\numberline {5.15}src/Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp File Reference}{26}{section.5.15}
+\contentsline {section}{\numberline {5.16}src/Image\_\discretionary {-}{}{}load.cpp File Reference}{26}{section.5.16}
+\contentsline {subsection}{\numberline {5.16.1}Function Documentation}{27}{subsection.5.16.1}
+\contentsline {subsubsection}{\numberline {5.16.1.1}Average\_\discretionary {-}{}{}Median}{27}{subsubsection.5.16.1.1}
+\contentsline {section}{\numberline {5.17}src/main.cpp File Reference}{27}{section.5.17}
+\contentsline {subsection}{\numberline {5.17.1}Function Documentation}{27}{subsection.5.17.1}
+\contentsline {subsubsection}{\numberline {5.17.1.1}main}{27}{subsubsection.5.17.1.1}
+\contentsline {section}{\numberline {5.18}src/Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp File Reference}{27}{section.5.18}

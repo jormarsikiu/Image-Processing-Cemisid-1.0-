@@ -1,0 +1,44 @@
+\hypertarget{Image__load_8cpp}{
+\section{src/Image\_\-load.cpp File Reference}
+\label{Image__load_8cpp}\index{src/Image\_\-load.cpp@{src/Image\_\-load.cpp}}
+}
+{\ttfamily \#include \char`\"{}../include/Image.hpp\char`\"{}}\par
+{\ttfamily \#include $<$iostream$>$}\par
+{\ttfamily \#include $<$armadillo$>$}\par
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{Image__load_8cpp_ab232955439ecee924d34b0e008294d80}{Average\_\-Median} (vec vector, int flag)
+\begin{DoxyCompactList}\small\item\em Calcula el promedio y la mediana. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{Image__load_8cpp_ab232955439ecee924d34b0e008294d80}{
+\index{Image\_\-load.cpp@{Image\_\-load.cpp}!Average\_\-Median@{Average\_\-Median}}
+\index{Average\_\-Median@{Average\_\-Median}!Image_load.cpp@{Image\_\-load.cpp}}
+\subsubsection[{Average\_\-Median}]{\setlength{\rightskip}{0pt plus 5cm}double Image::Average\_\-Median (
+\begin{DoxyParamCaption}
+\item[{vec}]{vector, }
+\item[{int}]{flag}
+\end{DoxyParamCaption}
+)}}
+\label{Image__load_8cpp_ab232955439ecee924d34b0e008294d80}
+
+
+Calcula el promedio y la mediana. 
+
+Descripcion: Permite calcular el promedio y la mediana.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector} & es el vector al cual se le calculará el promedio o la mediana \\
+\hline
+{\em flag} & cuando flag = 0 se calcula el promedio y cuando flag = 1 se calcula la mediana \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value: Retorna la matriz con el ruido \par
+ vec B; \par
+ Average\_\-Median(B, 0); //Promedio-\/Media \par
+ Average\_\-Median(B, 1); //Mediana 
+\end{DoxyReturn}

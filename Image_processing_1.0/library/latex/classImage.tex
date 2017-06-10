@@ -1,0 +1,774 @@
+\hypertarget{classImage}{
+\section{Image Class Reference}
+\label{classImage}\index{Image@{Image}}
+}
+
+
+{\ttfamily \#include $<$Image.hpp$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classImage_1_1h}{h}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+arma::mat \hyperlink{classImage_adc137bf8699177ff23598709300ab091}{Image\_\-load} (arma::mat, std::string)
+\begin{DoxyCompactList}\small\item\em Carga de Imagen pgm a mat. \end{DoxyCompactList}\item 
+\hyperlink{classImage_a58edd1c45b4faeb5f789b0d036d02313}{Image} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase. \end{DoxyCompactList}\item 
+\hyperlink{classImage_a2077a16b61e5d7612237c681975b8a1f}{Image} (arma::mat)
+\item 
+void \hyperlink{classImage_a900a9e62aa5bb9cc3c20c9d824a95ef3}{Dimension} ()
+\begin{DoxyCompactList}\small\item\em Obtiene las dimensiones de la matriz. \end{DoxyCompactList}\item 
+int \hyperlink{classImage_aa86aeeebf3fdc0a1a7d298e6162bca7d}{Get\_\-pixel} (int, int)
+\begin{DoxyCompactList}\small\item\em Obtiene el valor de un pixel. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a23162a663c28406dcf254696076ec204}{Get\_\-pixels} ()
+\begin{DoxyCompactList}\small\item\em Imprime todos los pixeles de la matriz imagen. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_a61630c07f6e608502bb6f7656cb154d7}{Gaussian\_\-noise} (double)
+\begin{DoxyCompactList}\small\item\em Aplica Ruido Gaussiano a una matriz. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_a7f129688b13d0d5e75d3c524fcd1e6bb}{Lost\_\-pixels\_\-noise} (double)
+\begin{DoxyCompactList}\small\item\em Aplica Perdida de pixeles a una matriz. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_a05c18284cc5906a249ca055e35f98037}{Salt\_\-and\_\-pepper\_\-noise} (double)
+\begin{DoxyCompactList}\small\item\em Aplica Ruido Sal y Pimienta a una matriz. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_ac33563552d3b003151122a2070e39540}{Impulsive\_\-uniform\_\-noise} (double)
+\begin{DoxyCompactList}\small\item\em Aplica Ruido Impulsivo Uniforme a una matriz. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a3203c7c554c580a3c08755bb43d5b048}{SaveImage} (arma::mat, std::string)
+\begin{DoxyCompactList}\small\item\em Guarda la matriz en formato pgm. \end{DoxyCompactList}\item 
+double \hyperlink{classImage_a0a7f491ee408027a11cc0551fb4dedbd}{PSNR} (arma::mat, arma::mat)
+\begin{DoxyCompactList}\small\item\em Calculo del PSNR. \end{DoxyCompactList}\item 
+double \hyperlink{classImage_ac2bfdd46c739cf12e1a9c19635ee1acc}{MAE} (arma::mat, arma::mat)
+\begin{DoxyCompactList}\small\item\em Calculo del MAE. \end{DoxyCompactList}\item 
+double \hyperlink{classImage_a724ca0afc83c93fa43bccd1802c6bd81}{MSE} (arma::mat, arma::mat)
+\begin{DoxyCompactList}\small\item\em Calculo del MSE. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_ad8b8a074b29c240d791859b2b4f7115a}{Filtering} (arma::mat, int, int)
+\begin{DoxyCompactList}\small\item\em Aplica un filtrado usando el promedio o la mediana para remover ruido. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_a150d4add6a8f7e926a7bc32ccf875169}{Detection\_\-Face} (std::string)
+\item 
+void \hyperlink{classImage_a359478a1e745b5da4ce47105ef0be14a}{Four\_\-windows\_\-opencv} (const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$, const char $\ast$)
+\begin{DoxyCompactList}\small\item\em Carga cuatro imagenes en una ventana de opencv. \end{DoxyCompactList}\item 
+void \hyperlink{classImage_ab88eac57a583bac4fe326477d33d57b0}{Two\_\-windows\_\-opencv} (const char $\ast$, const char $\ast$, std::string, std::string)
+\begin{DoxyCompactList}\small\item\em Carga dos imagenes en una ventana de opencv. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_ae20915262dc4e5f323ab1ee1144e8360}{Noise\_\-remover} (arma::mat, int)
+\begin{DoxyCompactList}\small\item\em Aproximación Robusta por bloques No solpados (ventana 8x8) \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_a8c565bce437181ecac5b042055c23919}{Overlap} (arma::mat)
+\begin{DoxyCompactList}\small\item\em Aproximación por bloques solpados (ventana 8x8) \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_ac18f2333604b1fff1c27ba8463fce0c1}{Idtc\_\-Robusta} (arma::mat, int)
+\begin{DoxyCompactList}\small\item\em Aproximación Robusta por bloques solpados (ventana 8x8) \end{DoxyCompactList}\item 
+double \hyperlink{classImage_a9c1e1c0c5b6892b39048d05a592569ad}{wmedianf} (arma::vec \&, arma::vec \&)
+\begin{DoxyCompactList}\small\item\em Calculo de la mediana. \end{DoxyCompactList}\item 
+arma::mat \hyperlink{classImage_a199f777054311b461b04b2a55d6a6697}{Diccionary} ()
+\begin{DoxyCompactList}\small\item\em Diccionario de la transformada del Coseno. \end{DoxyCompactList}\item 
+arma::vec \hyperlink{classImage_aeb0fd8b929c1f0413dd188a849a85c80}{Fast\_\-awmr} (arma::vec \&y, arma::mat \&A, int sparsity, int itmax, double beta, double tol, double epsilon, int numcoefperiter, double Kpar)
+\begin{DoxyCompactList}\small\item\em Funcion necesaria para idt\_\-Robusta() \end{DoxyCompactList}\item 
+\hyperlink{classImage_a0294f63700543e11c0f0da85601c7ae5}{$\sim$Image} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classImage_a9cef672ffec8e246ae8c34e8c64b57bf}{cols}
+\item 
+int \hyperlink{classImage_a3419545b62d16431c2ecdae5c8c5f91f}{rows}
+\item 
+arma::mat \hyperlink{classImage_a9cfb2ad2bdb77e4da2f0cc4fef1f2cbb}{matrix}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classImage_a58edd1c45b4faeb5f789b0d036d02313}{
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\subsubsection[{Image}]{\setlength{\rightskip}{0pt plus 5cm}Image::Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a58edd1c45b4faeb5f789b0d036d02313}
+
+
+Constructor de la clase. 
+
+Descripcion: Constructor de la clase \hyperlink{classImage}{Image} para acceder a sus metodos internos
+
+\begin{Desc}
+\item[\hyperlink{test__test000003}{Test}]\hyperlink{basic__funcions_8cpp}{basic\_\-funcions.cpp} \par
+ \hyperlink{classImage}{Image} I; \par
+ I.Dimension(); \end{Desc}
+\hypertarget{classImage_a2077a16b61e5d7612237c681975b8a1f}{
+\index{Image@{Image}!Image@{Image}}
+\index{Image@{Image}!Image@{Image}}
+\subsubsection[{Image}]{\setlength{\rightskip}{0pt plus 5cm}Image::Image (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a2077a16b61e5d7612237c681975b8a1f}
+\hypertarget{classImage_a0294f63700543e11c0f0da85601c7ae5}{
+\index{Image@{Image}!$\sim$Image@{$\sim$Image}}
+\index{$\sim$Image@{$\sim$Image}!Image@{Image}}
+\subsubsection[{$\sim$Image}]{\setlength{\rightskip}{0pt plus 5cm}Image::$\sim$Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a0294f63700543e11c0f0da85601c7ae5}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classImage_a150d4add6a8f7e926a7bc32ccf875169}{
+\index{Image@{Image}!Detection\_\-Face@{Detection\_\-Face}}
+\index{Detection\_\-Face@{Detection\_\-Face}!Image@{Image}}
+\subsubsection[{Detection\_\-Face}]{\setlength{\rightskip}{0pt plus 5cm}void Image::Detection\_\-Face (
+\begin{DoxyParamCaption}
+\item[{std::string}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a150d4add6a8f7e926a7bc32ccf875169}
+\hypertarget{classImage_a199f777054311b461b04b2a55d6a6697}{
+\index{Image@{Image}!Diccionary@{Diccionary}}
+\index{Diccionary@{Diccionary}!Image@{Image}}
+\subsubsection[{Diccionary}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Diccionary (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a199f777054311b461b04b2a55d6a6697}
+
+
+Diccionario de la transformada del Coseno. 
+
+Descripcion: Funcion necesaria para idt\_\-Robusta()
+
+Basado en los Articulos:
+
+Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela. Doi: 978-\/1-\/4799-\/2893-\/4/14/\$31.00. Recuperado de: \href{http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf}{\tt http://www.mirlab.org/conference\_\-papers/International\_\-Conference/ICASSP\%202014/papers/p1050-\/ramirez.pdf}
+
+Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. doi: 10.1109/LSP.2014.2349351. Recuperado de: \href{http://ieeexplore.ieee.org/document/6880779/}{\tt http://ieeexplore.ieee.org/document/6880779/} \hypertarget{classImage_a900a9e62aa5bb9cc3c20c9d824a95ef3}{
+\index{Image@{Image}!Dimension@{Dimension}}
+\index{Dimension@{Dimension}!Image@{Image}}
+\subsubsection[{Dimension}]{\setlength{\rightskip}{0pt plus 5cm}void Image::Dimension (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a900a9e62aa5bb9cc3c20c9d824a95ef3}
+
+
+Obtiene las dimensiones de la matriz. 
+
+Descripcion: Permite obtener la dimension nxn de la matriz.
+
+\begin{DoxyReturn}{Returns}
+Retorna la dimension de la imagen nxn. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000006}{Test}]\hyperlink{basic__funcions_8cpp}{basic\_\-funcions.cpp} \par
+ \hyperlink{classImage}{Image} I; \par
+ I.Dimension(); \end{Desc}
+\hypertarget{classImage_aeb0fd8b929c1f0413dd188a849a85c80}{
+\index{Image@{Image}!Fast\_\-awmr@{Fast\_\-awmr}}
+\index{Fast\_\-awmr@{Fast\_\-awmr}!Image@{Image}}
+\subsubsection[{Fast\_\-awmr}]{\setlength{\rightskip}{0pt plus 5cm}vec Image::Fast\_\-awmr (
+\begin{DoxyParamCaption}
+\item[{arma::vec \&}]{y, }
+\item[{arma::mat \&}]{A, }
+\item[{int}]{sparsity, }
+\item[{int}]{itmax, }
+\item[{double}]{beta, }
+\item[{double}]{tol, }
+\item[{double}]{epsilon, }
+\item[{int}]{numcoefperiter, }
+\item[{double}]{Kpar}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_aeb0fd8b929c1f0413dd188a849a85c80}
+
+
+Funcion necesaria para idt\_\-Robusta() 
+
+Basado en los Articulos:
+
+Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela. Doi: 978-\/1-\/4799-\/2893-\/4/14/\$31.00. Recuperado de: \href{http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf}{\tt http://www.mirlab.org/conference\_\-papers/International\_\-Conference/ICASSP\%202014/papers/p1050-\/ramirez.pdf}
+
+Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. doi: 10.1109/LSP.2014.2349351. Recuperado de: \href{http://ieeexplore.ieee.org/document/6880779/}{\tt http://ieeexplore.ieee.org/document/6880779/} \hypertarget{classImage_ad8b8a074b29c240d791859b2b4f7115a}{
+\index{Image@{Image}!Filtering@{Filtering}}
+\index{Filtering@{Filtering}!Image@{Image}}
+\subsubsection[{Filtering}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Filtering (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{int}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ad8b8a074b29c240d791859b2b4f7115a}
+
+
+Aplica un filtrado usando el promedio o la mediana para remover ruido. 
+
+Descripcion: Permite aplicar un filtrado a una matriz, utilizando el sparse. Se selecciona una ventana de lxl a la cual se le aplica un promedio o la mediana para restaurar la imagen. Se calcula utilizando el tamaño de la ventana l y el pixel central de la ventana, luego se aplica el promedio o mediana de los pixels adyacentes al central.
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & es la matriz con ruido a la cual se le aplicara el filtrado. \\
+\hline
+{\em l} & es el tamaño de la ventana \\
+\hline
+{\em flag} & es la bandera que indica si se efectua el promedio o la mediana. Donde el promedio es igual 0 y la mediana igual a 1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+filt\_\-matrix: Retorna la matriz con el filtrado. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000014}{Test}]\hyperlink{filtering__median_8cpp}{filtering\_\-median.cpp} \hyperlink{filtering__mean_8cpp}{filtering\_\-mean.cpp} \par
+ mat matrix; \par
+ int l = 5; \par
+ int flag = 0; \par
+ Filtering(matrix, l, flag); \end{Desc}
+\hypertarget{classImage_a359478a1e745b5da4ce47105ef0be14a}{
+\index{Image@{Image}!Four\_\-windows\_\-opencv@{Four\_\-windows\_\-opencv}}
+\index{Four\_\-windows\_\-opencv@{Four\_\-windows\_\-opencv}!Image@{Image}}
+\subsubsection[{Four\_\-windows\_\-opencv}]{\setlength{\rightskip}{0pt plus 5cm}void Image::Four\_\-windows\_\-opencv (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{imag1, }
+\item[{const char $\ast$}]{imag2, }
+\item[{const char $\ast$}]{imag3, }
+\item[{const char $\ast$}]{imag4, }
+\item[{const char $\ast$}]{label1, }
+\item[{const char $\ast$}]{label2, }
+\item[{const char $\ast$}]{label3, }
+\item[{const char $\ast$}]{label4}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a359478a1e745b5da4ce47105ef0be14a}
+
+
+Carga cuatro imagenes en una ventana de opencv. 
+
+Descripcion: Permite cargar cuatro imagenes en una ventana de opencv
+
+
+\begin{DoxyParams}{Parameters}
+{\em imag1} & es la ruta o ubicación de la imagen1 \\
+\hline
+{\em imag2} & es la ruta o ubicación de la imagen2 ....Imag3 ... Imag4 \\
+\hline
+{\em label1} & es el nombre de la imagen1 \\
+\hline
+{\em label2} & es el nombre de la imagen2 ....Imag3 ... Imag4 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Abre la ventana opencv con cuatro imagenes 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000001}{Test}]\hyperlink{main_8cpp}{main.cpp} \par
+ const char$\ast$ imag1= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-0\_\-1.pgm\char`\"{}; \par
+ const char$\ast$ imag2= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-1.pgm\char`\"{}; \par
+ const char$\ast$ imag3= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-10.pgm\char`\"{}; \par
+ const char$\ast$ imag4= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-100.pgm\char`\"{}; \par
+ Four\_\-windows\_\-opencv(imag1, imag2, imag3, imag4, label1, label2, label3, label4); \end{Desc}
+\hypertarget{classImage_a61630c07f6e608502bb6f7656cb154d7}{
+\index{Image@{Image}!Gaussian\_\-noise@{Gaussian\_\-noise}}
+\index{Gaussian\_\-noise@{Gaussian\_\-noise}!Image@{Image}}
+\subsubsection[{Gaussian\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Gaussian\_\-noise (
+\begin{DoxyParamCaption}
+\item[{double}]{nivel}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a61630c07f6e608502bb6f7656cb154d7}
+
+
+Aplica Ruido Gaussiano a una matriz. 
+
+Descripcion: Permite aplicarle Ruido Gaussiano a una matriz. El Ruido Gaussiano es una matriz de media 0 y con una desviacion estandar variable.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nivel} & es el nivel de varianza variable \par
+ \par
+ Parametros Internos: \par
+ A es una matriz gaussiana de dimensiones iguales a la matriz y de media 0 y varianza 1 \par
+ B es una matriz donde se almacena la matriz gaussiana de media 0 y el calculo de una varianza determinada \par
+ std es la desviacion estandar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value: Retorna la matriz con el ruido aplicado 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000009}{Test}]\hyperlink{gaussian__noise_8cpp}{gaussian\_\-noise.cpp} \par
+ int nivel=0.1; \par
+ Gaussian\_\-noise(nivel1); \end{Desc}
+\hypertarget{classImage_aa86aeeebf3fdc0a1a7d298e6162bca7d}{
+\index{Image@{Image}!Get\_\-pixel@{Get\_\-pixel}}
+\index{Get\_\-pixel@{Get\_\-pixel}!Image@{Image}}
+\subsubsection[{Get\_\-pixel}]{\setlength{\rightskip}{0pt plus 5cm}int Image::Get\_\-pixel (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_aa86aeeebf3fdc0a1a7d298e6162bca7d}
+
+
+Obtiene el valor de un pixel. 
+
+Descripcion: Permite obtener el valor de un pixel de la matriz de la imagen original
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & es el numero de filas de la matriz \\
+\hline
+{\em col} & es el numero de columnas de la matriz \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna el valor (value) de un pixel 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000007}{Test}]\hyperlink{basic__funcions_8cpp}{basic\_\-funcions.cpp} \par
+ \hyperlink{classImage}{Image} I; \par
+ int row=5; \par
+ int col=5; \par
+ I.Get\_\-pixel(row, col); \end{Desc}
+\hypertarget{classImage_a23162a663c28406dcf254696076ec204}{
+\index{Image@{Image}!Get\_\-pixels@{Get\_\-pixels}}
+\index{Get\_\-pixels@{Get\_\-pixels}!Image@{Image}}
+\subsubsection[{Get\_\-pixels}]{\setlength{\rightskip}{0pt plus 5cm}void Image::Get\_\-pixels (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a23162a663c28406dcf254696076ec204}
+
+
+Imprime todos los pixeles de la matriz imagen. 
+
+Descripcion: Permite obtener e imprimir todos los pixeles de la imagen.
+
+\begin{DoxyReturn}{Returns}
+value: Retorna todos los pixeles. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000008}{Test}]\hyperlink{basic__funcions_8cpp}{basic\_\-funcions.cpp} \par
+ \hyperlink{classImage}{Image} I; \par
+ I.Get\_\-pixels(); \end{Desc}
+\hypertarget{classImage_ac18f2333604b1fff1c27ba8463fce0c1}{
+\index{Image@{Image}!Idtc\_\-Robusta@{Idtc\_\-Robusta}}
+\index{Idtc\_\-Robusta@{Idtc\_\-Robusta}!Image@{Image}}
+\subsubsection[{Idtc\_\-Robusta}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Idtc\_\-Robusta (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ac18f2333604b1fff1c27ba8463fce0c1}
+
+
+Aproximación Robusta por bloques solpados (ventana 8x8) 
+
+Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 solapado por media (0) y mediana ponderada (1).
+
+Basado en los Articulos:
+
+Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela. Doi: 978-\/1-\/4799-\/2893-\/4/14/\$31.00. Recuperado de: \href{http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf}{\tt http://www.mirlab.org/conference\_\-papers/International\_\-Conference/ICASSP\%202014/papers/p1050-\/ramirez.pdf}
+
+Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. doi: 10.1109/LSP.2014.2349351. Recuperado de: \href{http://ieeexplore.ieee.org/document/6880779/}{\tt http://ieeexplore.ieee.org/document/6880779/}
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\_\-r} & es la matriz con ruido. \\
+\hline
+{\em flag} & es la bandera que indica si se efectua el promedio o la mediana. Donde el promedio es igual 0 y la mediana igual a 1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna la matriz sin ruido. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000020}{Test}]\hyperlink{idtc__Robusta__median_8cpp}{idtc\_\-Robusta\_\-median.cpp} \hyperlink{idtc__Robusta__mean_8cpp}{idtc\_\-Robusta\_\-mean.cpp} \par
+ mat matrix; \par
+ int flag = 0; \par
+ Idtc\_\-Robusta(matrix, flag); \end{Desc}
+\hypertarget{classImage_adc137bf8699177ff23598709300ab091}{
+\index{Image@{Image}!Image\_\-load@{Image\_\-load}}
+\index{Image\_\-load@{Image\_\-load}!Image@{Image}}
+\subsubsection[{Image\_\-load}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Image\_\-load (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{std::string}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_adc137bf8699177ff23598709300ab091}
+
+
+Carga de Imagen pgm a mat. 
+
+Descripcion: Permite cargar la imagen en formato pgm a mat
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & es la matriz que contine los pixeles de la imagen. \\
+\hline
+{\em ruta} & es la ubicacion o localizacion de la imagen. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna si la matriz fue cargada o si hubo problemas en la carga. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000002}{Test}]\hyperlink{basic__funcions_8cpp}{basic\_\-funcions.cpp} \par
+ mat matrix; \par
+ string ruta = \char`\"{}src/Resources/images/house.256.pgm\char`\"{}; \par
+ Image\_\-load(matrix, ruta); \end{Desc}
+\hypertarget{classImage_ac33563552d3b003151122a2070e39540}{
+\index{Image@{Image}!Impulsive\_\-uniform\_\-noise@{Impulsive\_\-uniform\_\-noise}}
+\index{Impulsive\_\-uniform\_\-noise@{Impulsive\_\-uniform\_\-noise}!Image@{Image}}
+\subsubsection[{Impulsive\_\-uniform\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Impulsive\_\-uniform\_\-noise (
+\begin{DoxyParamCaption}
+\item[{double}]{nivel}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ac33563552d3b003151122a2070e39540}
+
+
+Aplica Ruido Impulsivo Uniforme a una matriz. 
+
+Descripcion: Permite aplicarle Ruido Impulsivo Uniforme a una matriz
+
+
+\begin{DoxyParams}{Parameters}
+{\em nivel} & es el porcentaje de ruido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value: Retorna la matriz con el ruido aplicado. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000012}{Test}]\hyperlink{uniform__impulsive__noise_8cpp}{uniform\_\-impulsive\_\-noise.cpp} \par
+ double nivel=0.1; \par
+ Impulsive\_\-uniform\_\-noise(nivel); \end{Desc}
+\hypertarget{classImage_a7f129688b13d0d5e75d3c524fcd1e6bb}{
+\index{Image@{Image}!Lost\_\-pixels\_\-noise@{Lost\_\-pixels\_\-noise}}
+\index{Lost\_\-pixels\_\-noise@{Lost\_\-pixels\_\-noise}!Image@{Image}}
+\subsubsection[{Lost\_\-pixels\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Lost\_\-pixels\_\-noise (
+\begin{DoxyParamCaption}
+\item[{double}]{nivel}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a7f129688b13d0d5e75d3c524fcd1e6bb}
+
+
+Aplica Perdida de pixeles a una matriz. 
+
+Descripcion: Permite aplicarle Perdida de Pixeles a una matriz
+
+
+\begin{DoxyParams}{Parameters}
+{\em nivel} & es el porcentaje de ruido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value: Retorna la matriz con el ruido aplicado 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000010}{Test}]\hyperlink{lost__Pixels__noise_8cpp}{lost\_\-Pixels\_\-noise.cpp} \par
+ double nivel=0.1; \par
+ Lost\_\-pixels\_\-noise(nivel); \end{Desc}
+\hypertarget{classImage_ac2bfdd46c739cf12e1a9c19635ee1acc}{
+\index{Image@{Image}!MAE@{MAE}}
+\index{MAE@{MAE}!Image@{Image}}
+\subsubsection[{MAE}]{\setlength{\rightskip}{0pt plus 5cm}double Image::MAE (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{arma::mat}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ac2bfdd46c739cf12e1a9c19635ee1acc}
+
+
+Calculo del MAE. 
+
+Descripcion: Permite calcular el MAE (Error promedio absoluto) de una imagen con ruido y una imagen filtrada
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\_\-r} & es la matriz con ruido. \\
+\hline
+{\em matriz\_\-f} & es la matriz filtrada o recuperada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna el valor del MAE 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000019}{Test}]\hyperlink{filtering__mean_8cpp}{filtering\_\-mean.cpp} \par
+ mat matrix\_\-r; \par
+ mat matriz\_\-f; \par
+ MAE(matrix\_\-r, matriz\_\-f); \end{Desc}
+\hypertarget{classImage_a724ca0afc83c93fa43bccd1802c6bd81}{
+\index{Image@{Image}!MSE@{MSE}}
+\index{MSE@{MSE}!Image@{Image}}
+\subsubsection[{MSE}]{\setlength{\rightskip}{0pt plus 5cm}double Image::MSE (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{arma::mat}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a724ca0afc83c93fa43bccd1802c6bd81}
+
+
+Calculo del MSE. 
+
+Descripcion: Permite calcular el MSE (Error cuadratico medio) de una imagen con ruido y una imagen filtrada
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\_\-r} & es la matriz con ruido. \\
+\hline
+{\em matriz\_\-f} & es la matriz filtrada o recuperada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna el valor del MSE 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000018}{Test}]\hyperlink{filtering__mean_8cpp}{filtering\_\-mean.cpp} \par
+ mat matrix\_\-r; \par
+ mat matriz\_\-f; \par
+ MSE(matrix\_\-r, matriz\_\-f); \end{Desc}
+\hypertarget{classImage_ae20915262dc4e5f323ab1ee1144e8360}{
+\index{Image@{Image}!Noise\_\-remover@{Noise\_\-remover}}
+\index{Noise\_\-remover@{Noise\_\-remover}!Image@{Image}}
+\subsubsection[{Noise\_\-remover}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Noise\_\-remover (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ae20915262dc4e5f323ab1ee1144e8360}
+
+
+Aproximación Robusta por bloques No solpados (ventana 8x8) 
+
+Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 no solapado
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & es la matriz que se le removerá el ruido. \\
+\hline
+{\em image\_\-tam} & es el tamaño de la imagen. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+removermatrix: Retorna la matriz sin ruido. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000015}{Test}]\hyperlink{noise__remover_8cpp}{noise\_\-remover.cpp} \par
+ mat matrix; \par
+ int image\_\-tam = 256; \par
+ Noise\_\-remover(matrix, image\_\-tam); \end{Desc}
+\hypertarget{classImage_a8c565bce437181ecac5b042055c23919}{
+\index{Image@{Image}!Overlap@{Overlap}}
+\index{Overlap@{Overlap}!Image@{Image}}
+\subsubsection[{Overlap}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Overlap (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a8c565bce437181ecac5b042055c23919}
+
+
+Aproximación por bloques solpados (ventana 8x8) 
+
+Descripcion: Permite remover ruido mediante el uso de una ventana 8x8 solapado
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & es la matriz que se le removerá el ruido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+removermatrix: Retorna la matriz sin ruido. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000016}{Test}]\hyperlink{overlap_8cpp}{overlap.cpp} \par
+ mat matrix; \par
+ Overlap(matrix); \end{Desc}
+\hypertarget{classImage_a0a7f491ee408027a11cc0551fb4dedbd}{
+\index{Image@{Image}!PSNR@{PSNR}}
+\index{PSNR@{PSNR}!Image@{Image}}
+\subsubsection[{PSNR}]{\setlength{\rightskip}{0pt plus 5cm}double Image::PSNR (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{arma::mat}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a0a7f491ee408027a11cc0551fb4dedbd}
+
+
+Calculo del PSNR. 
+
+Descripcion: Permite calcular el PSNR de una imagen con ruido y una imagen filtrada
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix\_\-r} & es la matriz con ruido. \\
+\hline
+{\em matriz\_\-f} & es la matriz filtrada o recuperada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna el valor del PSNR 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000017}{Test}]\hyperlink{filtering__mean_8cpp}{filtering\_\-mean.cpp} \par
+ mat matrix\_\-r; \par
+ mat matriz\_\-f; \par
+ PSNR(matrix\_\-r, matriz\_\-f); \end{Desc}
+\hypertarget{classImage_a05c18284cc5906a249ca055e35f98037}{
+\index{Image@{Image}!Salt\_\-and\_\-pepper\_\-noise@{Salt\_\-and\_\-pepper\_\-noise}}
+\index{Salt\_\-and\_\-pepper\_\-noise@{Salt\_\-and\_\-pepper\_\-noise}!Image@{Image}}
+\subsubsection[{Salt\_\-and\_\-pepper\_\-noise}]{\setlength{\rightskip}{0pt plus 5cm}mat Image::Salt\_\-and\_\-pepper\_\-noise (
+\begin{DoxyParamCaption}
+\item[{double}]{nivel}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a05c18284cc5906a249ca055e35f98037}
+
+
+Aplica Ruido Sal y Pimienta a una matriz. 
+
+Descripcion: Permite aplicarle Ruido Sal y Pimienta a una matriz
+
+
+\begin{DoxyParams}{Parameters}
+{\em nivel} & es el porcentaje de ruido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna la matriz con el ruido (RG) 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000011}{Test}]\hyperlink{salt__pepper_8cpp}{salt\_\-pepper.cpp} \par
+ double nivel=0.1; \par
+ Salt\_\-and\_\-pepper\_\-noise(nivel); \end{Desc}
+\hypertarget{classImage_a3203c7c554c580a3c08755bb43d5b048}{
+\index{Image@{Image}!SaveImage@{SaveImage}}
+\index{SaveImage@{SaveImage}!Image@{Image}}
+\subsubsection[{SaveImage}]{\setlength{\rightskip}{0pt plus 5cm}void Image::SaveImage (
+\begin{DoxyParamCaption}
+\item[{arma::mat}]{, }
+\item[{std::string}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a3203c7c554c580a3c08755bb43d5b048}
+
+
+Guarda la matriz en formato pgm. 
+
+Descripcion: Permite guardar una matriz mat en formato pgm
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & matriz que contine los pixeles de la imagen. \\
+\hline
+{\em ruta} & ubicacion o localizacion de la imagen. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna si la matriz fue guardada o si hubo problemas al guardar. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000013}{Test}]\hyperlink{gaussian__noise_8cpp}{gaussian\_\-noise.cpp} \par
+ mat matrix; \par
+ string ruta= \char`\"{}src/Resources/images/house.256.pgm\char`\"{}; \par
+ SaveImage(matrix, ruta); \end{Desc}
+\hypertarget{classImage_ab88eac57a583bac4fe326477d33d57b0}{
+\index{Image@{Image}!Two\_\-windows\_\-opencv@{Two\_\-windows\_\-opencv}}
+\index{Two\_\-windows\_\-opencv@{Two\_\-windows\_\-opencv}!Image@{Image}}
+\subsubsection[{Two\_\-windows\_\-opencv}]{\setlength{\rightskip}{0pt plus 5cm}void Image::Two\_\-windows\_\-opencv (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{, }
+\item[{const char $\ast$}]{, }
+\item[{std::string}]{, }
+\item[{std::string}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_ab88eac57a583bac4fe326477d33d57b0}
+
+
+Carga dos imagenes en una ventana de opencv. 
+
+Descripcion: Permite cargar dos imagenes en una ventana de opencv con sus respectivas etiquetas (label).
+
+
+\begin{DoxyParams}{Parameters}
+{\em imag1} & es la ruta o ubicación de la imagen1. \\
+\hline
+{\em imag2} & es la ruta o ubicación de la imagen2. \\
+\hline
+{\em label1} & es el nombre de la imagen1. \\
+\hline
+{\em label2} & es el nombre de la imagen2. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Abre la ventana opencv con dos imagenes. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{test__test000021}{Test}]\hyperlink{main_8cpp}{main.cpp} \par
+ const char$\ast$ imag1= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-0\_\-1.pgm\char`\"{}; \par
+ const char$\ast$ imag2= \char`\"{}src/Resources/images\_\-salt\_\-and\_\-pepper/lady\_\-256\_\-1.pgm\char`\"{}; \par
+ string label1 = \char`\"{}Imagen1\char`\"{}; \par
+ string label2 = \char`\"{}Imagen2\char`\"{}; \par
+ Two\_\-windows\_\-opencv(imag1, imag2, label1, label2); \end{Desc}
+\hypertarget{classImage_a9c1e1c0c5b6892b39048d05a592569ad}{
+\index{Image@{Image}!wmedianf@{wmedianf}}
+\index{wmedianf@{wmedianf}!Image@{Image}}
+\subsubsection[{wmedianf}]{\setlength{\rightskip}{0pt plus 5cm}double Image::wmedianf (
+\begin{DoxyParamCaption}
+\item[{arma::vec \&}]{, }
+\item[{arma::vec \&}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classImage_a9c1e1c0c5b6892b39048d05a592569ad}
+
+
+Calculo de la mediana. 
+
+Descripcion: Funcion necesaria para idt\_\-Robusta()
+
+Basado en los Articulos:
+
+Ramírez J. y Paredes J. (2014). Robust Sparse Recovery Base On Weighted Median Operator. IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP). Department of Electrical Engineering, Universidad de Los Andes, Mérida, Venezuela. Doi: 978-\/1-\/4799-\/2893-\/4/14/\$31.00. Recuperado de: \href{http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p1050-ramirez.pdf}{\tt http://www.mirlab.org/conference\_\-papers/International\_\-Conference/ICASSP\%202014/papers/p1050-\/ramirez.pdf}
+
+Ramírez J. y Paredes J. (2015). Robust Transforms Based on the Weighted Median Operator. IEEE Signal Processing Letters, 22(1), pp. 120 – 124. doi: 10.1109/LSP.2014.2349351. Recuperado de: \href{http://ieeexplore.ieee.org/document/6880779/}{\tt http://ieeexplore.ieee.org/document/6880779/} 
+
+\subsection{Member Data Documentation}
+\hypertarget{classImage_a9cef672ffec8e246ae8c34e8c64b57bf}{
+\index{Image@{Image}!cols@{cols}}
+\index{cols@{cols}!Image@{Image}}
+\subsubsection[{cols}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Image::cols}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classImage_a9cef672ffec8e246ae8c34e8c64b57bf}
+\hypertarget{classImage_a9cfb2ad2bdb77e4da2f0cc4fef1f2cbb}{
+\index{Image@{Image}!matrix@{matrix}}
+\index{matrix@{matrix}!Image@{Image}}
+\subsubsection[{matrix}]{\setlength{\rightskip}{0pt plus 5cm}arma::mat {\bf Image::matrix}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classImage_a9cfb2ad2bdb77e4da2f0cc4fef1f2cbb}
+\hypertarget{classImage_a3419545b62d16431c2ecdae5c8c5f91f}{
+\index{Image@{Image}!rows@{rows}}
+\index{rows@{rows}!Image@{Image}}
+\subsubsection[{rows}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Image::rows}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classImage_a3419545b62d16431c2ecdae5c8c5f91f}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{Image_8hpp}{Image.hpp}\item 
+src/\hyperlink{Detection__Face__opencv_8cpp}{Detection\_\-Face\_\-opencv.cpp}\item 
+src/\hyperlink{Four__windows__opencv_8cpp}{Four\_\-windows\_\-opencv.cpp}\item 
+src/\hyperlink{Image__load_8cpp}{Image\_\-load.cpp}\item 
+src/\hyperlink{Two__windows__opencv_8cpp}{Two\_\-windows\_\-opencv.cpp}\end{DoxyCompactItemize}

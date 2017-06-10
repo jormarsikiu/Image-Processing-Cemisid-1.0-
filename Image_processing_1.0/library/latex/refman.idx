@@ -1,0 +1,106 @@
+\indexentry{Image::h@{Image::h}|hyperpage}{9}
+\indexentry{Image@{Image}|hyperpage}{9}
+\indexentry{Image@{Image}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!$\sim $Image@{$\sim $Image}|hyperpage}{11}
+\indexentry{$\sim $Image@{$\sim $Image}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Detection\_\discretionary {-}{}{}Face@{Detection\_\discretionary {-}{}{}Face}|hyperpage}{11}
+\indexentry{Detection\_\discretionary {-}{}{}Face@{Detection\_\discretionary {-}{}{}Face}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Diccionary@{Diccionary}|hyperpage}{11}
+\indexentry{Diccionary@{Diccionary}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Dimension@{Dimension}|hyperpage}{11}
+\indexentry{Dimension@{Dimension}!Image@{Image}|hyperpage}{11}
+\indexentry{Image@{Image}!Fast\_\discretionary {-}{}{}awmr@{Fast\_\discretionary {-}{}{}awmr}|hyperpage}{12}
+\indexentry{Fast\_\discretionary {-}{}{}awmr@{Fast\_\discretionary {-}{}{}awmr}!Image@{Image}|hyperpage}{12}
+\indexentry{Image@{Image}!Filtering@{Filtering}|hyperpage}{12}
+\indexentry{Filtering@{Filtering}!Image@{Image}|hyperpage}{12}
+\indexentry{Image@{Image}!Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv@{Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}|hyperpage}{12}
+\indexentry{Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv@{Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}!Image@{Image}|hyperpage}{12}
+\indexentry{Image@{Image}!Gaussian\_\discretionary {-}{}{}noise@{Gaussian\_\discretionary {-}{}{}noise}|hyperpage}{13}
+\indexentry{Gaussian\_\discretionary {-}{}{}noise@{Gaussian\_\discretionary {-}{}{}noise}!Image@{Image}|hyperpage}{13}
+\indexentry{Image@{Image}!Get\_\discretionary {-}{}{}pixel@{Get\_\discretionary {-}{}{}pixel}|hyperpage}{14}
+\indexentry{Get\_\discretionary {-}{}{}pixel@{Get\_\discretionary {-}{}{}pixel}!Image@{Image}|hyperpage}{14}
+\indexentry{Image@{Image}!Get\_\discretionary {-}{}{}pixels@{Get\_\discretionary {-}{}{}pixels}|hyperpage}{14}
+\indexentry{Get\_\discretionary {-}{}{}pixels@{Get\_\discretionary {-}{}{}pixels}!Image@{Image}|hyperpage}{14}
+\indexentry{Image@{Image}!Idtc\_\discretionary {-}{}{}Robusta@{Idtc\_\discretionary {-}{}{}Robusta}|hyperpage}{14}
+\indexentry{Idtc\_\discretionary {-}{}{}Robusta@{Idtc\_\discretionary {-}{}{}Robusta}!Image@{Image}|hyperpage}{14}
+\indexentry{Image@{Image}!Image\_\discretionary {-}{}{}load@{Image\_\discretionary {-}{}{}load}|hyperpage}{15}
+\indexentry{Image\_\discretionary {-}{}{}load@{Image\_\discretionary {-}{}{}load}!Image@{Image}|hyperpage}{15}
+\indexentry{Image@{Image}!Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise@{Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise}|hyperpage}{15}
+\indexentry{Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise@{Impulsive\_\discretionary {-}{}{}uniform\_\discretionary {-}{}{}noise}!Image@{Image}|hyperpage}{15}
+\indexentry{Image@{Image}!Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise@{Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise}|hyperpage}{16}
+\indexentry{Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise@{Lost\_\discretionary {-}{}{}pixels\_\discretionary {-}{}{}noise}!Image@{Image}|hyperpage}{16}
+\indexentry{Image@{Image}!MAE@{MAE}|hyperpage}{16}
+\indexentry{MAE@{MAE}!Image@{Image}|hyperpage}{16}
+\indexentry{Image@{Image}!MSE@{MSE}|hyperpage}{17}
+\indexentry{MSE@{MSE}!Image@{Image}|hyperpage}{17}
+\indexentry{Image@{Image}!Noise\_\discretionary {-}{}{}remover@{Noise\_\discretionary {-}{}{}remover}|hyperpage}{17}
+\indexentry{Noise\_\discretionary {-}{}{}remover@{Noise\_\discretionary {-}{}{}remover}!Image@{Image}|hyperpage}{17}
+\indexentry{Image@{Image}!Overlap@{Overlap}|hyperpage}{18}
+\indexentry{Overlap@{Overlap}!Image@{Image}|hyperpage}{18}
+\indexentry{Image@{Image}!PSNR@{PSNR}|hyperpage}{18}
+\indexentry{PSNR@{PSNR}!Image@{Image}|hyperpage}{18}
+\indexentry{Image@{Image}!Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise@{Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise}|hyperpage}{18}
+\indexentry{Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise@{Salt\_\discretionary {-}{}{}and\_\discretionary {-}{}{}pepper\_\discretionary {-}{}{}noise}!Image@{Image}|hyperpage}{18}
+\indexentry{Image@{Image}!SaveImage@{SaveImage}|hyperpage}{19}
+\indexentry{SaveImage@{SaveImage}!Image@{Image}|hyperpage}{19}
+\indexentry{Image@{Image}!Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv@{Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}|hyperpage}{19}
+\indexentry{Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv@{Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv}!Image@{Image}|hyperpage}{19}
+\indexentry{Image@{Image}!wmedianf@{wmedianf}|hyperpage}{20}
+\indexentry{wmedianf@{wmedianf}!Image@{Image}|hyperpage}{20}
+\indexentry{Image@{Image}!cols@{cols}|hyperpage}{20}
+\indexentry{cols@{cols}!Image@{Image}|hyperpage}{20}
+\indexentry{Image@{Image}!matrix@{matrix}|hyperpage}{20}
+\indexentry{matrix@{matrix}!Image@{Image}|hyperpage}{20}
+\indexentry{Image@{Image}!rows@{rows}|hyperpage}{20}
+\indexentry{rows@{rows}!Image@{Image}|hyperpage}{20}
+\indexentry{examples/basic\_\discretionary {-}{}{}funcions.cpp@{examples/basic\_\discretionary {-}{}{}funcions.cpp}|hyperpage}{21}
+\indexentry{basic\_\discretionary {-}{}{}funcions.cpp@{basic\_\discretionary {-}{}{}funcions.cpp}!main@{main}|hyperpage}{21}
+\indexentry{main@{main}!basic_funcions.cpp@{basic\_\discretionary {-}{}{}funcions.cpp}|hyperpage}{21}
+\indexentry{examples/detection\_\discretionary {-}{}{}face.cpp@{examples/detection\_\discretionary {-}{}{}face.cpp}|hyperpage}{21}
+\indexentry{detection\_\discretionary {-}{}{}face.cpp@{detection\_\discretionary {-}{}{}face.cpp}!main@{main}|hyperpage}{22}
+\indexentry{main@{main}!detection_face.cpp@{detection\_\discretionary {-}{}{}face.cpp}|hyperpage}{22}
+\indexentry{examples/filtering\_\discretionary {-}{}{}mean.cpp@{examples/filtering\_\discretionary {-}{}{}mean.cpp}|hyperpage}{22}
+\indexentry{filtering\_\discretionary {-}{}{}mean.cpp@{filtering\_\discretionary {-}{}{}mean.cpp}!main@{main}|hyperpage}{22}
+\indexentry{main@{main}!filtering_mean.cpp@{filtering\_\discretionary {-}{}{}mean.cpp}|hyperpage}{22}
+\indexentry{examples/filtering\_\discretionary {-}{}{}median.cpp@{examples/filtering\_\discretionary {-}{}{}median.cpp}|hyperpage}{22}
+\indexentry{filtering\_\discretionary {-}{}{}median.cpp@{filtering\_\discretionary {-}{}{}median.cpp}!main@{main}|hyperpage}{22}
+\indexentry{main@{main}!filtering_median.cpp@{filtering\_\discretionary {-}{}{}median.cpp}|hyperpage}{22}
+\indexentry{examples/gaussian\_\discretionary {-}{}{}noise.cpp@{examples/gaussian\_\discretionary {-}{}{}noise.cpp}|hyperpage}{22}
+\indexentry{gaussian\_\discretionary {-}{}{}noise.cpp@{gaussian\_\discretionary {-}{}{}noise.cpp}!main@{main}|hyperpage}{23}
+\indexentry{main@{main}!gaussian_noise.cpp@{gaussian\_\discretionary {-}{}{}noise.cpp}|hyperpage}{23}
+\indexentry{examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp@{examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}|hyperpage}{23}
+\indexentry{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp@{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}!main@{main}|hyperpage}{23}
+\indexentry{main@{main}!idtc_Robusta_mean.cpp@{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}mean.cpp}|hyperpage}{23}
+\indexentry{examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp@{examples/idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}|hyperpage}{23}
+\indexentry{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp@{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}!main@{main}|hyperpage}{23}
+\indexentry{main@{main}!idtc_Robusta_median.cpp@{idtc\_\discretionary {-}{}{}Robusta\_\discretionary {-}{}{}median.cpp}|hyperpage}{23}
+\indexentry{examples/lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp@{examples/lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}|hyperpage}{23}
+\indexentry{lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp@{lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!lost_Pixels_noise.cpp@{lost\_\discretionary {-}{}{}Pixels\_\discretionary {-}{}{}noise.cpp}|hyperpage}{24}
+\indexentry{examples/noise\_\discretionary {-}{}{}remover.cpp@{examples/noise\_\discretionary {-}{}{}remover.cpp}|hyperpage}{24}
+\indexentry{noise\_\discretionary {-}{}{}remover.cpp@{noise\_\discretionary {-}{}{}remover.cpp}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!noise_remover.cpp@{noise\_\discretionary {-}{}{}remover.cpp}|hyperpage}{24}
+\indexentry{examples/overlap.cpp@{examples/overlap.cpp}|hyperpage}{24}
+\indexentry{overlap.cpp@{overlap.cpp}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!overlap.cpp@{overlap.cpp}|hyperpage}{24}
+\indexentry{examples/salt\_\discretionary {-}{}{}pepper.cpp@{examples/salt\_\discretionary {-}{}{}pepper.cpp}|hyperpage}{25}
+\indexentry{salt\_\discretionary {-}{}{}pepper.cpp@{salt\_\discretionary {-}{}{}pepper.cpp}!main@{main}|hyperpage}{25}
+\indexentry{main@{main}!salt_pepper.cpp@{salt\_\discretionary {-}{}{}pepper.cpp}|hyperpage}{25}
+\indexentry{examples/uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp@{examples/uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}|hyperpage}{25}
+\indexentry{uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp@{uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}!main@{main}|hyperpage}{25}
+\indexentry{main@{main}!uniform_impulsive_noise.cpp@{uniform\_\discretionary {-}{}{}impulsive\_\discretionary {-}{}{}noise.cpp}|hyperpage}{25}
+\indexentry{include/Image.hpp@{include/Image.hpp}|hyperpage}{25}
+\indexentry{src/Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp@{src/Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}|hyperpage}{26}
+\indexentry{Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp@{Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}!face\_\discretionary {-}{}{}cascade@{face\_\discretionary {-}{}{}cascade}|hyperpage}{26}
+\indexentry{face\_\discretionary {-}{}{}cascade@{face\_\discretionary {-}{}{}cascade}!Detection_Face_opencv.cpp@{Detection\_\discretionary {-}{}{}Face\_\discretionary {-}{}{}opencv.cpp}|hyperpage}{26}
+\indexentry{src/Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp@{src/Four\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp}|hyperpage}{26}
+\indexentry{src/Image\_\discretionary {-}{}{}load.cpp@{src/Image\_\discretionary {-}{}{}load.cpp}|hyperpage}{26}
+\indexentry{Image\_\discretionary {-}{}{}load.cpp@{Image\_\discretionary {-}{}{}load.cpp}!Average\_\discretionary {-}{}{}Median@{Average\_\discretionary {-}{}{}Median}|hyperpage}{27}
+\indexentry{Average\_\discretionary {-}{}{}Median@{Average\_\discretionary {-}{}{}Median}!Image_load.cpp@{Image\_\discretionary {-}{}{}load.cpp}|hyperpage}{27}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{27}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{27}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{27}
+\indexentry{src/Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp@{src/Two\_\discretionary {-}{}{}windows\_\discretionary {-}{}{}opencv.cpp}|hyperpage}{27}
